@@ -15,8 +15,13 @@ app.get('/', function (req, res) {
 })
 
 app.get('/name', function (req, res) {
-  res.send("<h1>C0864512-Mirsohail</h1>")
-})
+  const responseData = {
+    firstName: "Mirsohail",
+    lastName: "Shaikh",
+    studentId: "C0864512",
+  };
+  res.json(responseData);
+});
 
 
 //http://localhost:3000/profile
