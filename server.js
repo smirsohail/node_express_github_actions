@@ -19,6 +19,7 @@ app.get('/name', function (req, res) {
     firstName: "Mirsohail",
     lastName: "Shaikh",
     studentId: "C0864512",
+    birthDate:"29/08/1994"
   };
   res.json(responseData);
 });
