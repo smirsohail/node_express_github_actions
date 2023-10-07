@@ -7,7 +7,7 @@ const SERVER_HOST = "localhost"
 
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
-app.use(express.static("./views"))
+app.use(express.static("./view"))
 
 //http://localhost:3000/
 app.get('/', function (req, res) {
